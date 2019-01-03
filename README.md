@@ -1,11 +1,11 @@
 # AirlinesAnalysis-using-Hadoop-Hive
-image
+
 The proposed method is made by considering following scenario under consideration An Airport has huge amount of data related to number of flights, data and time of arrival and dispatch, flight routes, No. of airports operating in each country, list of active airlines in each country. The problem they faced till now it’s, they have ability to analyze limited data from databases. The Proposed model intension is to develop a model for the airline data to provide platform for new analytics based on the following queries.
 
-Data Description
+# Data Description
 In this use case there are 3 data sets. Final_airlines, routes.dat, airports_mod.dat
 
-Air Ports data set i.e airports_mod.dat
+# Air Ports data set i.e airports_mod.dat
 It contains the following fields
 
 Airport ID Unique OpenFlights identifier for this airport.
@@ -38,7 +38,7 @@ DST Daylight savings time. One of E (Europe), A (US/Canada), S (South America), 
 
 Tz database time Timezone in "tz" (Olson) format, eg. "America/Los_Angeles". zone
 
-Air Lines Data set:
+# Air Lines Data set:
 It contains the following fields:
 
 Airline Unique OpenFlights identifier for this airline. ID
@@ -57,7 +57,7 @@ Country Country or territory where airline is incorporated.
 
 Active "Y" if the airline is or has until recently been operational, "N" if it is defunct. This field is not reliable: in particular, major airlines that stopped flying long ago, but have not had their IATA code reassigned (eg. Ansett/AN), will incorrectly show as "Y"
 
-Routes Data set i.e routes.dat
+# Routes Data set i.e routes.dat
 It contains the following fields
 
 Airline 2-letter (IATA) or 3-letter (ICAO) code of the airline.
@@ -78,5 +78,5 @@ Stops Number of stops on this flight ("0" for direct)
 
 Equipment 3-letter codes for plane type(s) generally used on this flight, separated by spaces
 
-CONCLUSION
+# CONCLUSION
 This paper addresses the related work of distributed data bases that were found in literature, challenges ahead with big data, and a case study on airline data analysis using Hive. Author attempted to explore detailed analysis on airline data sets such as listing airports operating in the India, list of airlines having zero stops, list of airlines operating with code share which country has highest airports and list of active airlines in united state. Here author focused on the processing the big data sets using hive component of hadoop ecosystem in distributed environment. This work will benefit the developers and business analysts in accessing and processing their user queries.
